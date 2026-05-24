@@ -35,8 +35,7 @@ pip install -r requirements.txt
 
 1. Placer les **images d'entraînement** (1 à 250) dans `data/train_images/`
 2. Placer les **masques d'entraînement** dans `data/train_masks/` (mêmes noms ou IDs que les images)
-3. Renommer le fichier Excel en `labels.xlsx` et le placer dans `data/`
-4. Quand disponibles : placer les images de test dans `data/test_images/` et leurs masques dans `data/test_masks/`
+3. Quand disponibles : placer les images de test dans `data/test_images/` et leurs masques dans `data/test_masks/`
 
 ## Utilisation
 
