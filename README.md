@@ -11,7 +11,7 @@ Machine learning/
 │   ├── train_masks/       # Masques correspondants
 │   ├── test_images/       # Images 251 à 347 (fournies plus tard)
 │   ├── test_masks/        # Masques correspondants
-│   └── labels.xlsx        # Fichier Excel avec colonnes ID, bug type, species
+│   └── classif.xlsx        # Fichier Excel avec colonnes ID, bug type, species
 ├── notebooks/
 │   └── to_bee_or_not_to_bee.ipynb   # Pipeline principal
 ├── src/
