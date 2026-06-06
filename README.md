@@ -11,7 +11,7 @@ Machine learning/
 │   ├── train_masks/       # Masques correspondants
 │   ├── test_images/       # Images 251 à 347 (fournies plus tard)
 │   ├── test_masks/        # Masques correspondants
-│   └── labels.xlsx        # Fichier Excel avec colonnes ID, bug type, species
+│   └── classif.xlsx        # Fichier Excel avec colonnes ID, bug type, species
 ├── notebooks/
 │   └── to_bee_or_not_to_bee.ipynb   # Pipeline principal
 ├── src/
@@ -64,7 +64,7 @@ Ouvrir le notebook `notebooks/to_bee_or_not_to_bee.ipynb` et exécuter les cellu
 
 - **2 supervisées non-DL, non-ensemble** : SVM (RBF), KNN
 - **1 ensemble** : Random Forest
-- **2 clustering** : KMeans, Agglomerative (+ DBSCAN en bonus)
+- **2 clustering** : KMeans, Agglomerative
 - **DL optionnel** : CNN simple (à activer si TensorFlow est installé)
 
 ## Livrables (8 juin 2026, 12h30)
